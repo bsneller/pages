@@ -1,0 +1,71 @@
+{
+    "webscene": "644b01936d5e46c6ad86fa906c9af02a",
+    "portalurl": "https://www.arcgis.com",
+    "survey": "vragenUtrecht4",
+
+    "titleText": "Buurtonderzoek",
+    "splashText": "Buurtonderzoek om reacties op ontwerp te verzamelen",
+    "helpText": "Buurtonderzoek om reacties op ontwerp te verzamelen",
+    "finishText": "Dank u voor het meedoen aan dit onderzoek!",
+
+    "showGuest": true,
+    "allowGuestSubmissions": true,
+
+    "showFacebook": false,
+    "facebookAppId": "",
+
+    "showGooglePlus": false,
+    "googleplusClientId": "",
+
+    "showTwitter": false,
+
+    "headingFieldName": "heading",
+    "tiltFieldName": "tilt",
+    "rollFieldName": "roll",
+    "slidenameFieldName": "slidename",
+    "surveyorFieldName": "surveyor",
+    "socialMediaFieldName": "socialmedia",
+
+    "surveyNotificationPolicy": "allImportant",
+    "showSeeResponsesButton": true,
+    "useWebmapOrigImg": true,
+    "splashBackgroundUrl": "images/kruisvaart.jpg",
+    "brandingIconUrl": "images/esri3.png",
+
+    "clusterSymDisplay": {
+        "averagingFieldName": "vraag3",
+        "averagingColorStops": [{
+            "value": 0,
+            "color": "#00ff00"
+        }, {
+            "value": 1,
+            "color": "#80ff00"
+        }, {
+            "value": 2,
+            "color": "#ffff00"
+        }, {
+            "value": 3,
+            "color": "#ff8000"
+        }, {
+            "value": 4,
+            "color": "#ff0000"
+        }],
+        "featureCountSizeStops": [{
+            "value": 1,
+            "size": 20
+        }, {
+            "value": 10,
+            "size": 60
+        }]
+    },
+    "pieChartColors": {
+        "vraag1": ["#00ff00", "#ff0000", "#ffff00"],
+        "vraag2": ["#00ff00", "#80ff00", "#ffff00", "#ff8000", "#ff0000"]
+    },
+
+    "urlParamsFilter": ["webscene", "portalurl", "survey", "locale", "app", "diag"],
+    "app": "publicSurvey",
+    "twitterSigninUrl": "https://utility.arcgis.com/tproxy/signin",
+    "twitterUserUrl": "https://utility.arcgis.com/tproxy/proxy/1.1/account/verify_credentials.json?q=&include_entities=true&skip_status=true&locale=en",
+    "twitterCallbackUrl": "/oauth-callback-twitter.html"
+}
